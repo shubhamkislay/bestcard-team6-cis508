@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # -------------------------------
-# Custom CSS for Modern Look with White Heading
+# Custom CSS for Modern Look (Light Theme)
 # -------------------------------
 st.markdown("""
     <style>
@@ -11,10 +11,10 @@ st.markdown("""
     .reportview-container {
         background: #F0F2F6;
     }
-    /* Header styles with white heading */
+    /* Header styles with dark heading for light theme */
     .big-font {
         font-size: 50px !important;
-        color: white !important;
+        color: #333333 !important; /* Changed from white to dark gray */
         text-align: center;
         font-weight: bold;
         margin-bottom: 0;
